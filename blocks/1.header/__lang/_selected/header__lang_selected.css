@@ -1,0 +1,11 @@
+.header__lang_selected {
+   text-decoration: underline;
+   margin-right: 18px;
+}
+
+
+@media all and (max-width : 425px) {
+   .header__lang_selected {
+   margin-right: 16px;
+   }
+}

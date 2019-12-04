@@ -1,0 +1,46 @@
+.places__website {
+    width: 484px;
+    height: 46px;  
+    margin-top: 87px;
+    margin-bottom: 60px;
+    margin-left: 43px;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+@media all and (min-width : 1024px) and (max-width : 1440px) {
+    .places__website {     
+     
+        max-width: 52%;
+        margin-left: 0%;
+        margin-top:   13.5%;
+    }
+}
+
+@media all and (min-width : 768px) and (max-width : 1024px){
+    .places__website {
+        max-width: 49%;
+        margin-left: 0%;
+        margin-top:   13.3%;
+
+    }
+}
+
+@media all and (min-width : 425px) and (max-width : 768px){
+    .places__website {
+
+        max-width: 50%;
+        margin-left: 0%;
+        margin-top:   6.5%;
+        
+        }
+}
+
+@media all and (max-width : 425px){
+    .places__website {
+    display:none;
+
+
+    }
+}

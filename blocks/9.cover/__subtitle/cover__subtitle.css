@@ -1,0 +1,114 @@
+.cover__subtitle {
+width: 382px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+/* top: 477px;
+right: 401px;
+left:401px;
+bottom: 48px;  */
+position: absolute;
+margin:0px;
+
+}
+
+
+@media all and (min-width : 1025px) and (max-width : 1440px) {
+    .cover__subtitle {     
+         margin: 0;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 18px;
+         line-height: 26px;
+         text-align: center;
+         
+         color: #FFFFFF;
+         bottom: 48px;
+         transform: translateX(-50%);
+         left: 50%;
+     }
+ }
+ 
+ @media all and (min-width : 769px) and (max-width : 1024px){
+    .cover__subtitle{
+         max-width: 49.73%;
+         top: 78.53%;
+         left: 31%;
+         margin: 0;
+         
+         font-style: normal;
+         font-weight: normal;
+         font-size: 18px;
+         line-height: 26px;
+         text-align: center;
+         
+         color: #FFFFFF;
+         margin-bottom: 102px;
+
+         
+
+     }
+ }
+ 
+
+@media all and (min-width : 376px) and (max-width : 768px) {
+    .cover__subtitle {
+        
+        color: #FFFFFF;
+        width: 382px;
+        height: 80px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+        bottom: 40px;
+        left: 193px;
+    }
+
+
+    }
+
+
+
+
+
+@media all and (min-width : 321px) and (max-width : 375px){
+    .cover__subtitle{
+
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 277px;
+    height: 57px;
+    bottom: 21px;
+    left: 46px;
+}
+    }
+
+
+@media all and (max-width : 320px){
+    .cover__subtitle {
+   
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        left: 16px;
+        word-break: break-all;
+        width: 280px;
+        height: 49px;
+        top: 143px;
+    }
+}

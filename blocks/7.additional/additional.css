@@ -1,0 +1,20 @@
+@import url('../13.content-title/__content-title.css');
+@import url('../14.content-subtitle/__content-subtitle.css');
+@import url('./__container/additional__container.css');
+@import url('./__image/additional__image.css');
+@import url('./__rect/additional__rect.css');
+@import url('./__subtitle/additional__subtitle.css');
+@import url('./__text/additional__heading-right.css');
+@import url('./__text/additional__heading-left.css');
+@import url('./__text/additional__text.css');
+@import url('./__title/additional__title.css');
+@import url('./__block/additional__block.css');
+@import url('');
+@import url('');
+@import url('');
+
+.additional {
+width: 1184px;
+margin:0px 128px 102px;
+display: none;
+}

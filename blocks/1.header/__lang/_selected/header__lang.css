@@ -1,0 +1,47 @@
+.header__lang {
+display: flex;
+align-self: flex-end;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 23px;
+text-align: right;
+text-decoration:none;
+color: white;
+background-color: #2A2C2F;
+}
+
+
+@media all and (min-width : 1024px)and (max-width : 1440px) {
+    .header__lang {
+        max-width: 30px;
+        font-size: 23px;
+        align-items: flex-end;
+    }
+}
+
+@media all and (min-width : 768px) and (max-width : 1024px){
+    .header__lang {
+        max-width: 30px;
+        font-size: 23px;
+        align-items: flex-end;
+    }
+}
+
+@media all and (min-width : 425px) and (max-width : 768px){
+    .header__lang {
+        max-width: 30px;
+        font-size: 23px;
+        align-items: flex-end;
+    }
+}
+@media all and (max-width : 425px) {
+    .header__lang {
+        max-width: 30px;
+        font-size: 18px;
+        align-items: flex-end;
+    }
+
+    }
+
+

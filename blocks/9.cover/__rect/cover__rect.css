@@ -1,0 +1,87 @@
+.cover__rect {
+width: 1184px;
+background: #2A2C2F;
+opacity: 0.3;
+height: 594px;
+display: flex;
+flex-direction: column;
+position: relative;
+transition: opacity 0.5s ease-in;
+}
+
+.cover .cover__rect:hover {
+    opacity:0.7;
+}
+
+
+
+@media all and (min-width : 1281px) and (max-width : 1440px)  {
+   .cover__rect {     
+
+        
+        display: block;
+        margin: 0 auto 102px;
+        margin-left: 0;
+        margin-bottom: 0;
+
+        width: 1184px;
+        height: 594px;
+
+    }
+}
+
+@media all and (min-width : 1025px) and (max-width : 1280px)  {
+    .cover__rect {     
+
+         
+        display: block;
+        margin: 0 auto 102px;
+        margin-left: 0;
+        margin-bottom: 0;
+        width: 1184px;
+        height: 594px;
+ 
+     }
+ }
+
+@media all and (min-width : 769px) and (max-width : 1024px){
+   .cover__rect{
+    
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        order: -1;
+        width: 1045px;
+        height: 562px;
+    }
+}
+
+
+
+
+@media all and (min-width : 376px) and (max-width : 768px) {
+    .cover__rect{
+
+        width: 768px;
+        height: 500px;
+    
+    }
+}
+
+
+
+
+@media all and (min-width : 321px) and (max-width : 375px){
+    .cover__rect{
+        width: 375px;
+        height: 272px;
+    }
+}
+
+@media all and (max-width : 320px){
+        .cover__rect{
+            width: 320px;
+            height: 216px;
+    
+    }
+}

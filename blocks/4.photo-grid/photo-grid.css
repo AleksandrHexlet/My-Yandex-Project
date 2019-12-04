@@ -1,0 +1,104 @@
+@import url(../4.photo-grid/__item.css);
+
+
+.photo-grid {
+
+    display: grid;
+    grid-template-columns: 284px 284px 284px 284px;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    width: 1184px;
+    margin: 0 auto 92px;
+    display: grid;
+    justify-content: center;
+}
+
+
+
+
+@media all and (min-width : 1281px) and (max-width : 1440px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fill, 284px);
+        margin: 0 auto 92px;
+        padding: 0px;
+        max-width: 90vw;
+        display: grid;
+        justify-content: start;
+        grid-gap: 16px;
+    }
+}
+
+@media all and (min-width : 1025px) and (max-width : 1280px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fill, 284px);
+        margin: 0 auto 92.5px;
+        padding: 0px;
+        max-width: 92.5vw;
+        display: grid;
+        justify-content: start;
+        grid-gap: 16px;
+    }
+}
+
+
+@media all and (min-width : 769px) and (max-width : 1024px) {
+    .photo-grid {
+        padding: 0px;
+        margin: 0 auto 102px;
+        grid-template-columns: repeat(3, 300px);
+        display: grid;
+        justify-content: center;
+        grid-gap: 14px;
+        width: 928px;
+
+    }
+}
+
+
+
+@media all and (min-width : 376px) and (max-width : 768px) {
+    .photo-grid {
+        margin: 0 auto;
+        width: 720px;
+
+        margin: 0 auto 102px;
+        padding: 0px;
+        max-width: 95vw;
+        grid-template-columns: repeat(2, 352px);
+        grid-gap: 16px;
+        display: grid;
+        justify-content: center;
+
+    }
+}
+
+
+
+@media all and (min-width : 321px) and (max-width : 375px) {
+    .photo-grid {
+
+        width: 343px;
+
+        margin: 0 auto 64px;
+        padding: 0px;
+        grid-template-columns: repeat(1, 343px);
+        grid-gap: 15px;
+        display: grid;
+        justify-content: start;
+
+    }
+}
+
+@media all and (max-width : 320px) {
+    .photo-grid {
+
+        width: 288px;
+
+        margin: 0 auto 64px;
+        padding: 0px;
+        grid-template-columns: repeat(1, 288px);
+        grid-gap: 15px;
+        display: grid;
+        justify-content: start;
+    }
+}

@@ -1,0 +1,13 @@
+@import url('../10.emblem/__item/emblem__city.css');
+@import url('../10.emblem/__item/emblem__image.css');
+@import url('../10.emblem/__item/emblem__item.css');
+@import url('../10.emblem/__title/emblem__title.css');
+@import url('../10.emblem/__item/emblem__block.css');
+@import url('');
+@import url('');
+
+.emblem {
+width: 1184px;
+margin:0px 128px 85px;
+display: none;
+}

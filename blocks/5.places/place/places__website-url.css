@@ -1,0 +1,44 @@
+.places__website-url {
+width: 484px;
+height: 18px;  
+
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+text-decoration-line: underline; 
+color: #FFFFFF;
+
+}
+
+@media all and (min-width : 1024px) and (max-width : 1440px) {
+    .places__website-url {     
+     
+        max-width: 52%;
+    }
+}
+
+@media all and (min-width : 768px) and (max-width : 1024px){
+    .places__website-url {
+        max-width: 49%;
+
+
+    }
+}
+
+@media all and (min-width : 425px) and (max-width : 768px){
+    .places__website-url {
+
+        max-width: 50%;
+
+        
+        }
+}
+
+@media all and (max-width : 425px){
+    .places__website-url {
+    display:none;
+
+
+    }
+}

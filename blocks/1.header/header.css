@@ -1,0 +1,59 @@
+@import url('../1.header/__lang/_selected/header__lang.css');
+@import url('../1.header/__langs/header__langs.css');
+@import url('../1.header/__logo/header__logo.css');
+@import url('../1.header/__lang/_selected/header__lang_selected.css');
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2A2C2F;
+    max-width: 1184px;
+    padding: 0px 10px 0px;
+    /* margin: 30px auto 48px; */
+    margin: 0 auto 48px;
+}
+
+@media all and (min-width : 1024px) and (max-width : 1440px) {
+    .header {
+
+        min-width: 80vw;
+        padding: 0px 10px 0px;
+        /* margin: 30px auto 48px; */
+        max-width: 1184px;
+        margin: 0 auto 48px;
+    }
+    }
+
+
+@media all and (min-width : 768px) and (max-width : 1024px) {
+    .header {
+        max-width: 90vw;
+        padding: 0px 10px 0px;
+        /* margin: 30px auto 48px; */
+        min-width: 80vw;
+        margin: 0 auto 48px;
+    }
+}
+
+@media all and (min-width : 425px) and (max-width : 768px) {
+    .header {
+        max-width: 90vw;
+        padding: 0px 10px 0px;
+        /* margin: 30px auto 48px; */
+        min-width: 80vw;
+        margin: 0 auto 48px;
+    }
+}
+
+@media all and (max-width : 425px) {
+    .header {
+        max-width: 90vw;
+        padding: 0px 10px 0px;
+        /* margin: 30px auto 48px; */
+        min-width: 80vw;
+        margin: 0 auto 48px;
+    }
+}
+
+
+

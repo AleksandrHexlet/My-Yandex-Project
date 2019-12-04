@@ -1,0 +1,46 @@
+.places__website-url-heading {
+width: 484px;
+height: 12px; 
+
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 0.2em;    
+color: #AAAAAA;
+margin-bottom: 16px;
+margin-top: 0px
+    
+}
+
+@media all and (min-width : 1024px) and (max-width : 1440px) {
+    .places__website-url-heading {     
+     
+        max-width: 52%;
+    }
+}
+
+@media all and (min-width : 768px) and (max-width : 1024px){
+    .places__website-url-heading {
+        max-width: 49%;
+
+
+    }
+}
+
+@media all and (min-width : 425px) and (max-width : 768px){
+    .places__website-url-heading {
+
+        max-width: 50%;
+
+        
+        }
+}
+
+@media all and (max-width : 425px){
+    .places__website-url-heading {
+    display:none;
+
+
+    }
+}

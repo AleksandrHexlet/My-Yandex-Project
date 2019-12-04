@@ -1,0 +1,7 @@
+.intro__content-row-text-right {
+width: 283px;
+min-height: 25px;
+display: flex;
+flex-direction: column;
+display: none;
+}

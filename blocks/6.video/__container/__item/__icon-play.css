@@ -1,0 +1,36 @@
+.video__icon-play {
+height: 41px;
+left: 30px;
+top: 30px;
+position: absolute;
+
+}
+
+
+
+    
+@media all and (min-width : 768px) and (max-width : 1023px) {
+.video__icon-play {
+
+
+        left: 24.63px;
+        top: 25px;
+    }
+}
+
+@media all and (min-width : 375px) and (max-width : 767px) {
+.video__icon-play {
+
+    left: 24px;
+    top: 24px;
+
+    }
+}
+
+@media all and (max-width : 374px) {
+.video__icon-play {
+      left: 16px;
+      top: 16px;
+
+    }
+}

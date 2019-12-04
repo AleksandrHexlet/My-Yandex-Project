@@ -1,0 +1,19 @@
+.intro__subtitle {
+display: flex;
+min-width: 683px;
+min-height: 23px;
+margin-right: 301px;
+padding-bottom: 35px;
+margin-left: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+align-items: center;
+
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 38px;
+color: #FFFFFF;
+display: none;
+}
+

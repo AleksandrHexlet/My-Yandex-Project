@@ -1,0 +1,117 @@
+.cover__title {
+    width: 1094.27px;
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFDFD;
+    top: 274px;
+    right: 50.88px;
+    bottom: 134px;
+    left: 38.85px;
+    position: absolute;
+    margin: 0px;
+}
+
+
+
+
+@media all and (min-width : 1025px) and (max-width : 1280px)  {
+    .cover__title {
+
+        /* max-width: 61.35%; */
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 78px;
+        text-align: center;
+        color: #FFFDFD;     
+        width: 1094.27px;
+        height: 69px;
+        transform: translateY(-50%);
+        top: 50%;
+        left: 86px
+    }
+        
+    }
+
+
+@media all and (min-width : 769px) and (max-width : 1024px) {
+    .cover__title {
+        max-width: 53.35%;
+        
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 78px;
+        text-align: center;
+        
+        left: 19.9%;
+        color: #FFFDFD;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media all and (min-width : 376px) and (max-width : 768px) {
+    .cover__title {   
+
+        width: 557px;
+        height: 170px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 78px;
+        text-align: center;
+        color: #FFFDFD;    
+        top: 50%;
+        transform: translateY(-50%);
+        left: 99px;
+    }
+
+    }
+
+
+
+
+
+@media all and (min-width : 321px) and (max-width : 375px){
+    .cover__title{
+        max-width: 67.46%;
+    
+        font-style: normal;
+        font-weight: 900;
+        font-size: 31px;
+        line-height: 35px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 auto;
+        left: 46px;
+        top: 69px;
+ 
+        width: 234px;
+        height: 80px;
+    
+
+    }
+}
+
+@media all and (max-width : 320px){
+    .cover__title {   
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    left: 36px;
+    top: 57px;
+    width: 235px;
+    height: 72px;
+}
+    }
+
